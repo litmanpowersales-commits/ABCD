@@ -1,5 +1,5 @@
 ############################################################
-# PRACTICAL 1
+# PRACTICAL 1 XBAR AND R CHART
 ############################################################
 # AIM: To construct and study the Xbar-chart and R-chart for the given data (with
 # sample size 5 and 25 samples) and to examine whether the process mean and
@@ -138,7 +138,7 @@ if (requireNamespace("qcc", quietly = TRUE)) {
 
 
 ############################################################
-# PRACTICAL 2
+# PRACTICAL 2 MODIFIED CC
 ############################################################
 # AIM: To construct 3sigma modified control limits and draw the control charts.
 # 
@@ -299,7 +299,7 @@ abline(h=LSL_m, col="red", lty=2, lwd=2)
 
 
 ############################################################
-# PRACTICAL 3
+# PRACTICAL 3 ACCEPTANCE CC
 ############################################################
 # AIM: To construct an Acceptance Control Chart.
 # PROBLEM: The nitrogen content of a certain fertiliser mix is the characteristic of interest. A random
@@ -513,7 +513,7 @@ if (length(R_out)==0) {
 
 
 ############################################################
-# PRACTICAL 4
+# PRACTICAL 4 CHI SQ AND CONTOUR p=2
 ############################################################
 # Anish Agarwal
 # AIM: To construct a Chi-Square Control Chart for a multivariate process, to find the UCL, the
@@ -747,7 +747,7 @@ if (length(out)==0) {
 
 
 ############################################################
-# PRACTICAL 5
+# PRACTICAL 5 chi sq and contour p=3
 ############################################################
 # AIM: To construct a Chi-Square Control Chart for a multivariate process with three quality
 # characteristics, calculate the UCL, inverse covariance matrix, eigenvalues and eigenvectors, and plot the
@@ -981,7 +981,7 @@ par(mfrow = c(1, 1))
 
 
 ############################################################
-# PRACTICAL 6
+# PRACTICAL 6 hotelling t^2 cc and contour plot
 ############################################################
 # AIM: Construct Hotelling's T2 Control Chart & Contour Plot
 # 
@@ -1156,7 +1156,7 @@ legend("topright",
 
 
 ############################################################
-# PRACTICAL 7
+# PRACTICAL 7 GENERALISED VARIANCE |S| CC
 ############################################################
 # AIM: To construct the generalised variance (|S|) control chart and its contour plot for two quality
 # characteristics using R.
@@ -1309,7 +1309,7 @@ text(s11,s22,labels=1:m,pos=3,cex=0.7)
 
 
 ############################################################
-# PRACTICAL 8
+# PRACTICAL 8 CHI CC AND CONTOUR PLOT
 ############################################################
 # Aim: To construct a chi^2 control chart and a contour plot (control ellipse) at alpha = 0.01 for the
 # bivariate quality characteristics tensile strength and diameter (Table 7-28), and to check
@@ -1415,7 +1415,7 @@ points(mu[1], mu[2], pch = 3)
 
 
 ############################################################
-# PRACTICAL 9
+# PRACTICAL 9 SEQUENTIAL SAMPLING PLAN
 ############################################################
 # AIM:
 # 
@@ -1512,7 +1512,7 @@ legend("topleft", c("Rejection line", "Acceptance line"),
 
 
 ############################################################
-# PRACTICAL 10
+# PRACTICAL 10 VARIANCE SAMPLING PLAN
 ############################################################
 # AIM: To determine the parameters of a variables sampling plan and construct its OC curve,
 # showing AQL and LTPD, using R.
@@ -1634,7 +1634,7 @@ text(8,Pa.LTPD,"LTPD",pos=4)
 
 
 ############################################################
-# PRACTICAL 11
+# PRACTICAL 11 CAPABILITY,Cp, Cpk
 ############################################################
 # Aim
 # To assess the capability of a dairy-processing step from subgroup averages and ranges: to
@@ -1801,7 +1801,7 @@ if (Cp < crit) "Reject H0" else "Fail to reject H0"
 
 
 ############################################################
-# PRACTICAL 12
+# PRACTICAL 12 CSP-I
 ############################################################
 # Aim
 # To develop and compare two Continuous Sampling Plan-1 (CSP-1) plans for a manufacturing
